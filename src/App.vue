@@ -1,11 +1,14 @@
-<script setup></script>
-
 <template>
-  <h1>You did it!</h1>
-  <p>
-    Visit <a href="https://vuejs.org/" target="_blank" rel="noopener">vuejs.org</a> to read the
-    documentation
-  </p>
-</template>
+  <div>
+    <nav class="navbar navbar-dark bg-dark">
+      <div class="container">
+        <RouterLink class="navbar-brand" to="/">
+          UrbanWear Explorer
+        </RouterLink>
+      </div>
+    </nav>
 
-<style scoped></style>
+    <RouterView />
+  </div>
+</template>
+ 
